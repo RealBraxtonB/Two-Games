@@ -1,0 +1,108 @@
+body {
+    background-color: seashell;
+    font-size: 1.5em;
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    color: #3085ca;
+    text-align: center;
+}
+h2 {
+    color: #3085ca;
+    text-align: center;
+}
+ul {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+input[type=button] {
+    border-radius: 6px;
+    color: white;
+    background-color: #3085ca;
+    font-size: large;
+    padding: 5px;
+    cursor: pointer;
+}
+button {
+    border-radius: 6px;
+    color: white;
+    background-color: #3085ca;
+    font-size: large;
+    padding: 5px;
+}
+.coin{
+    margin-top: 10px;
+    text-align: center;
+}
+.results {
+    text-align: center;
+}
+
+/*stuff for guessing game*/
+
+input[type=text] {
+    font-size: x-large;
+}
+.feedback {
+    padding: 3px;
+    font-size: xx-large;
+}
+.tooBig {
+    color: blue;
+    background-color: pink;
+    padding: 3px;
+    font-size: xx-large;
+}
+.tooSmall {
+    color: blue;
+    background-color: lightblue;
+    padding: 3px;
+    font-size: xx-large;
+}
+.tooMany {
+    background-color: red;
+    padding: 3px;
+    font-size: xx-large;
+}
+.justRight {
+    color: green;
+    background-color: lightgreen;
+    padding: 3px;
+    font-size: xx-large;
+}
+
+/*stuff to make the tabs look good*/
+
+.container {
+    margin: 40px;
+    margin-top: 60px;
+}
+.tabs > ul {
+    padding: 0;
+}
+.tabs .trigger {
+    list-style-type: none;
+    padding: 10px;
+    background: #747474;
+    margin: 4px;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.tabs .trigger.active {
+    background: #3085ca;
+    color: white;
+}
+.tabs .content{
+    background: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: none;
+}
+.tabs .content.active {
+    display: block;
+}
