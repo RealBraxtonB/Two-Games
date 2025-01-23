@@ -1,15 +1,15 @@
 body {
-    background-color: seashell;
+    background-color: cornsilk;
     font-size: 1.5em;
     width: 80%;
     margin: auto;
 }
 h1 {
-    color: #3085ca;
+    color: orangered;
     text-align: center;
 }
 h2 {
-    color: #3085ca;
+    color: orangered;
     text-align: center;
 }
 ul {
@@ -21,7 +21,7 @@ form {
 input[type=button] {
     border-radius: 6px;
     color: white;
-    background-color: #3085ca;
+    background-color: orangered;
     font-size: large;
     padding: 5px;
     cursor: pointer;
@@ -29,7 +29,7 @@ input[type=button] {
 button {
     border-radius: 6px;
     color: white;
-    background-color: #3085ca;
+    background-color: orangered;
     font-size: large;
     padding: 5px;
 }
@@ -86,7 +86,7 @@ input[type=text] {
 .tabs .trigger {
     list-style-type: none;
     padding: 10px;
-    background: #747474;
+    background: #d1d1d1;
     margin: 4px;
     border-radius: 6px;
     display: inline-block;
@@ -94,7 +94,7 @@ input[type=text] {
     cursor: pointer;
 }
 .tabs .trigger.active {
-    background: #3085ca;
+    background: orangered;
     color: white;
 }
 .tabs .content{
